@@ -1,0 +1,5 @@
+<div class="sidebar">
+<template [ngIf]="libElements">
+  <app-lib-element *ngFor="let item of libElements" [object]="item"></app-lib-element>
+</template>
+</div>
